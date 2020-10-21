@@ -1,0 +1,6 @@
+.jumbotron {
+  height: 100vh;
+  background: url("../images/home/headerHome.png");
+  background-size: cover;
+  /* transform: translate(-1px, 0px); */
+}

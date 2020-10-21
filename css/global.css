@@ -14,8 +14,8 @@
 /* NAVBAR */
 nav {
   width: 100%;
-  background: #f8f9fa;
-  display: flex;
+  background: rgba(248, 249, 250, .7);
+  position: fixed;
 }
 
 nav .container {
