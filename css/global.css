@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --hijau-tua: #01996D;
+  --hijau-muda: #A0EA26;
+}
+
+
+/* NAVBAR */
+nav {
+  width: 100%;
+  background: #f8f9fa;
+  display: flex;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1rem;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.fitur ul,
+.login ul {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.fitur ul li,
+.login ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  transition: .5s;
+}
+
+.fitur ul li a:hover {
+  background: #01996D;
+  color: #fff;
+}
+
+.fitur ul li a,
+.login ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  font-family: "Montserrat-Bold";
+  transition: 0.2s;
+}
+
+.login ul li a:hover {
+  border-bottom: 3px solid #01996D;
+}
+
+.login .button {
+  padding: 12px 24px;
+  background: #01996D;
+  color: #fff;
+}
+
+.login .button a {
+  color: #fff;
+}
+
+/* FOOTER */
+
+
+/* FONT */
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../font/montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('../font/montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: Georgia-Bold;
+  src: url('../font/georgia/georgiab.woff');
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url('../font/Lato/Lato-Regular.ttf');
+}
