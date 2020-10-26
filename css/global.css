@@ -54,7 +54,7 @@ nav .container {
 }
 
 .fitur ul li a:hover {
-  background: #01996D;
+  background: var(--hijau-tua);
   color: #fff;
 }
 
@@ -68,12 +68,12 @@ nav .container {
 }
 
 .login ul li a:hover {
-  border-bottom: 3px solid #01996D;
+  border-bottom: 3px solid var(--hijau-tua);
 }
 
 .login .button {
   padding: 12px 24px;
-  background: #01996D;
+  background: var(--hijau-tua);
   color: #fff;
 }
 

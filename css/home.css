@@ -2,13 +2,41 @@
   height: 100vh;
   background: url("../images/home/headerHome.png");
   background-size: cover;
+  padding: 40vh 30vmax 0 20vmin;
+  color: #fff;
 }
+
+.jumbotron h1,
+.jumbotron2 h1 {
+  font-family: "Georgia-Bold";
+  font-size: 3rem;
+}
+
+.jumbotron p,
+.jumbotron2 p {
+  width: 50%;
+  font-family: "Lato-Regular";
+  margin: 1.5rem 0 1rem 0;
+}
+
+.jumbotron .button,
+.jumbotron2 .button {
+  padding: 12px 24px;
+  background: var(--hijau-tua);
+  color: #fff;
+}
+
+.jumbotron .button a,
+.jumbotron2 .button a {
+  color: #fff;
+  font-family: "Lato-Regular";
+}
+
 
 /* FITUR FITUR */
 .fitur-content {
   height: 1000px;
   padding: 2rem 4rem;
-
   display: flex;
   flex-direction: column;
 }
@@ -78,14 +106,17 @@
 /* JUNBOTRN 2 */
 .jumbotron2 {
   height: 75vmin;
-  background: chartreuse;
+  background: url("../images/home/466658-PFX5MG-6.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 25vh 20vmin;
+  color: #fff;
 }
-
 
 /* BERITA */
 .berita {
-  height: 85vmax;
-  padding: 180px 150px;
+  /* height: 85vmax; */
+  padding: 120px 150px;
 }
 
 .berita .container {
@@ -141,7 +172,12 @@
   padding: 1rem;
 }
 
+.card-berita .card .text hr {
+  margin-bottom: 1rem;
+}
+
 .card-berita .card h1 {
+  margin-bottom: 0.3rem;
   font-size: 18px;
   font-family: "Montserrat-Bold";
 }
@@ -157,4 +193,48 @@
 }
 
 /* FOOTER */
-.footer1 {}
+.footer1 {
+  height: 300px;
+  background: #292D3F;
+}
+
+.footer1 .content {
+  width: 33.33vmax;
+  padding: 3rem 4rem;
+  color: #fff;
+}
+
+.footer1 .content:nth-child(1) img {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.footer1 .content:nth-child(1) i {
+  font-family: "Lato-Regular";
+}
+
+.footer1 .content:nth-child(2) h2,
+.footer1 .content:nth-child(3) h2 {
+  font-family: "Montserrat-Bold";
+}
+
+.footer1 .content:nth-child(2) ul,
+.footer1 .content:nth-child(3) ul {
+  font-family: "Lato-Regular";
+  padding: 0.7rem 2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.footer2 {
+  height: 60px;
+  background: #393939;
+}
+
+.footer2 small {
+  margin: auto;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Lato-Regular";
+}
