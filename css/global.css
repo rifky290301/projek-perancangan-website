@@ -10,6 +10,10 @@
   --hijau-muda: #A0EA26;
 }
 
+.flex {
+  display: flex;
+}
+
 
 /* NAVBAR */
 nav {
@@ -90,6 +94,11 @@ nav .container {
 @font-face {
   font-family: Montserrat-Regular;
   src: url('../font/montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url('../font/montserrat/Montserrat-Light.ttf');
 }
 
 @font-face {
