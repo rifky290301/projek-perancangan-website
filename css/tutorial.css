@@ -1,0 +1,35 @@
+.text-jumbotron {
+  padding: 20vh 20vmin;
+}
+
+.text-jumbotron .container {
+  padding: 0 30% 0 0;
+}
+
+.text-jumbotron h1 {
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+}
+
+.text-jumbotron .small-card {
+  width: 200px;
+  height: 60px;
+  margin: 1rem 0 .75rem 0;
+  border-radius: 10px;
+  background: var(--hijau-muda);
+}
+
+.text-jumbotron .small-card h3 {
+  font-family: "Montserrat-Bold";
+}
+
+.text-jumbotron .small-card small {
+  font-family: "Montserrat-Light";
+  font-style: italic;
+  font-family: .5rem;
+}
+
+.text-jumbotron .deskripsi {
+  font-family: "Montserrat-Regular";
+  font-size: 1rem;
+}
