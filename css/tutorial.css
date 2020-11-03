@@ -51,21 +51,28 @@
 
 /* STEP BY STEP */
 .step {
-  padding: 20vh 20vmin;
+  padding: 20vh 20vmin 0 20vmin;
 }
-
-/* .step .container {
-  background-color: burlywood;
-} */
 
 .step .container .by-step {
   display: flex;
 }
 
+.step .container .by-step:nth-child(6) {
+  margin-bottom: 2rem;
+}
+
 .step .container .by-step .gambar {
   padding: 1rem 5rem;
   width: 50%;
-  /* height: ; */
+}
+
+.step .container .by-step .gambar img {
+  transition: all 1s ease;
+}
+
+.step .container .by-step .gambar img:hover {
+  transform: scale(1.2);
 }
 
 .step .container .by-step .text {
@@ -80,17 +87,16 @@
 }
 
 .step .container .by-step .text .span1 {
-  transform: translateX(-6.1rem);
+  transform: translateX(-6.3rem);
   color: white;
-  height: 2rem;
-  width: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
   border-right: 50%;
   background: var(--hijau-tua);
   font-size: 18px;
   border-radius: 50%;
-  box-shadow: 2px 0 10px black;
+  border: 6px solid whitesmoke;
 }
-
 
 .step .container .by-step .text .span1 p {
   margin: auto;
@@ -98,4 +104,82 @@
 
 .step .container .by-step .gambar img {
   width: 400px;
+}
+
+/* BERITA */
+.berita {
+  /* height: 85vmax; */
+  padding: 120px 150px;
+}
+
+.berita .judul-berita {
+  width: 920px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.berita .judul-berita h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.berita .judul-berita p {
+  font-family: "Montserrat-Regular";
+  font-size: 1rem;
+}
+
+.berita .card-berita {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.berita .card-berita {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.berita .thumbil {
+  top: 0;
+  height: 50%;
+  background: chartreuse;
+}
+
+.card-berita .card {
+  width: 30vw;
+  margin: 1rem 2rem;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.card-berita .card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-berita .card .text {
+  padding: 1rem;
+}
+
+.card-berita .card .text hr {
+  margin-bottom: 1rem;
+}
+
+.card-berita .card h1 {
+  margin-bottom: 0.3rem;
+  font-size: 18px;
+  font-family: "Montserrat-Bold";
+}
+
+.card-berita .card small {
+  color: #C4C4C4;
+  font-family: "Montserrat-Light";
+}
+
+.card-berita .card p {
+  font-size: 1rem;
+  font-family: "Montserrat-Regular";
 }
