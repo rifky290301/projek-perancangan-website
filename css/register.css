@@ -1,5 +1,5 @@
 body {
-    background-image: url('../images/register/bg.png');
+    background-image: url('../images/register&login/bg.png');
     background-size: cover;
     background-attachment: fixed;
     font-family: sans-serif;
@@ -60,8 +60,7 @@ a {
     color: #019960;
 }
 
-#registrasi,
-#login {
+#registrasi {
     background: #019960;
     color: white;
 }
