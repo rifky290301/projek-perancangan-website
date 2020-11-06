@@ -2,5 +2,192 @@
   height: 100vh;
   background: url("../images/home/headerHome.png");
   background-size: cover;
-  /* transform: translate(-1px, 0px); */
+  padding: 40vh 30vmax 0 20vmin;
+  color: #fff;
+}
+
+.jumbotron h1,
+.jumbotron2 h1 {
+  font-family: "Georgia-Bold";
+  font-size: 3rem;
+}
+
+.jumbotron p,
+.jumbotron2 p {
+  width: 50%;
+  font-family: "Lato-Regular";
+  margin: 1.5rem 0 1rem 0;
+}
+
+.jumbotron .button,
+.jumbotron2 .button {
+  padding: 12px 24px;
+  background: var(--hijau-tua);
+  color: #fff;
+}
+
+.jumbotron .button a,
+.jumbotron2 .button a {
+  color: #fff;
+  font-family: "Lato-Regular";
+}
+
+
+/* FITUR FITUR */
+.fitur-content {
+  height: 1000px;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.fitur-judul {
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.fitur-judul {
+  width: 920px;
+  justify-content: center;
+}
+
+.fitur-judul h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  margin-bottom: .5rem;
+  text-align: center;
+}
+
+.fitur-judul p {
+  font-family: "Montserrat-Regular";
+  font-size: 1rem;
+  text-align: center;
+}
+
+.fitur-isi {
+  display: flex;
+  flex-direction: column;
+}
+
+.fiturs {
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.fitur-content .card {
+  width: 30vw;
+  height: 320px;
+  margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.fitur-content h4 {
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+  margin: 0.75rem 0;
+}
+
+.fitur-content p {
+  font-family: "Montserrat-Regular";
+  font-size: 1rem;
+}
+
+.fitur-content img {
+  height: 120px;
+  width: 120px;
+  margin: 0.75rem auto;
+}
+
+
+/* JUNBOTRN 2 */
+.jumbotron2 {
+  height: 75vmin;
+  background: url("../images/home/466658-PFX5MG-6.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 25vh 20vmin;
+  color: #fff;
+}
+
+/* BERITA */
+.berita {
+  /* height: 85vmax; */
+  padding: 120px 150px;
+}
+
+.berita .container {
+  /* background: chartreuse; */
+}
+
+.berita .judul-berita {
+  width: 920px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.berita .judul-berita h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  margin-bottom: .5rem;
+}
+
+.berita .judul-berita p {
+  font-family: "Montserrat-Regular";
+  font-size: 1rem;
+}
+
+.berita .card-berita {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.berita .card-berita {
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.berita .thumbil {
+  top: 0;
+  height: 50%;
+  background: chartreuse;
+}
+
+.card-berita .card {
+  width: 30vw;
+  height: 500px;
+  margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.card-berita .card .text {
+  padding: 1rem;
+}
+
+.card-berita .card .text hr {
+  margin-bottom: 1rem;
+}
+
+.card-berita .card h1 {
+  margin-bottom: 0.3rem;
+  font-size: 18px;
+  font-family: "Montserrat-Bold";
+}
+
+.card-berita .card small {
+  color: #C4C4C4;
+  font-family: "Montserrat-Light";
+}
+
+.card-berita .card p {
+  font-size: 1rem;
+  font-family: "Montserrat-Regular";
 }

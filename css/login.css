@@ -1,0 +1,74 @@
+body {
+    background-image: url('../images/register&login/bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.form {
+    width: 280px;
+    height: 450px;
+    background: white;
+    margin: 80px auto;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 5px 85px;
+}
+
+div.content-atas {
+    background-color: #019960;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+div p {
+    color: white;
+    margin: 20px;
+}
+
+label {
+    font-size: 11pt;
+    color: #019960;
+}
+
+#nama,
+#email,
+#password,
+#login {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    font-size: 11pt;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #019960;
+}
+
+.content-bawah {
+    margin: 20px;
+}
+
+a {
+    color: #019960;
+}
+
+#login {
+    background: #019960;
+    color: white;
+}
+
+.register {
+    float: left;
+    font-size: 14px;
+}
+
+.forgot {
+    float: right;
+    font-size: 14px;
+}

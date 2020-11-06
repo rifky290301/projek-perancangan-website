@@ -10,6 +10,10 @@
   --hijau-muda: #A0EA26;
 }
 
+.flex {
+  display: flex;
+}
+
 
 /* NAVBAR */
 nav {
@@ -50,7 +54,7 @@ nav .container {
 }
 
 .fitur ul li a:hover {
-  background: #01996D;
+  background: var(--hijau-tua);
   color: #fff;
 }
 
@@ -64,12 +68,12 @@ nav .container {
 }
 
 .login ul li a:hover {
-  border-bottom: 3px solid #01996D;
+  border-bottom: 3px solid var(--hijau-tua);
 }
 
 .login .button {
   padding: 12px 24px;
-  background: #01996D;
+  background: var(--hijau-tua);
   color: #fff;
 }
 
@@ -78,7 +82,51 @@ nav .container {
 }
 
 /* FOOTER */
+.footer1 {
+  height: 300px;
+  background: #292D3F;
+}
 
+.footer1 .content {
+  width: 33.33vmax;
+  padding: 3rem 4rem;
+  color: #fff;
+}
+
+.footer1 .content:nth-child(1) img {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.footer1 .content:nth-child(1) i {
+  font-family: "Lato-Regular";
+}
+
+.footer1 .content:nth-child(2) h2,
+.footer1 .content:nth-child(3) h2 {
+  font-family: "Montserrat-Bold";
+}
+
+.footer1 .content:nth-child(2) ul,
+.footer1 .content:nth-child(3) ul {
+  font-family: "Lato-Regular";
+  padding: 0.7rem 2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.footer2 {
+  height: 60px;
+  background: #393939;
+}
+
+.footer2 small {
+  margin: auto;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Lato-Regular";
+}
 
 /* FONT */
 
@@ -90,6 +138,11 @@ nav .container {
 @font-face {
   font-family: Montserrat-Regular;
   src: url('../font/montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url('../font/montserrat/Montserrat-Light.ttf');
 }
 
 @font-face {
