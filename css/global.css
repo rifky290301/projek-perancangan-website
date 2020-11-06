@@ -129,6 +129,50 @@ nav .container {
   font-family: "Lato-Regular";
 }
 
+@media screen and (max-width: 1024px) {
+  .footer1 .content {
+    width: 33.33vmax;
+    padding: 2rem 0 1rem 2rem;
+    color: #fff;
+  }
+
+  .footer1 .content:nth-child(2) ul,
+  .footer1 .content:nth-child(3) ul {
+    font-size: 1.5rem;
+    padding: 1rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer1 {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .footer1 .content {
+    padding: 0;
+    padding: 1rem 1rem;
+    width: 100%;
+  }
+
+  .footer1 .content:nth-child(1) {
+    display: flex;
+  }
+
+  .footer1 .content:nth-child(1) .tulisan {
+    padding: 2rem 1rem;
+  }
+
+  .footer1 .content:nth-child(2) ul,
+  .footer1 .content:nth-child(3) ul {
+    font-size: 1rem;
+    padding: 1rem;
+    line-height: 1rem;
+  }
+}
+
+
 /* FONT */
 
 @font-face {

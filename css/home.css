@@ -44,10 +44,6 @@
 .fitur-judul {
   flex-direction: column;
   margin: 0 auto;
-}
-
-.fitur-judul {
-  width: 920px;
   justify-content: center;
 }
 
@@ -115,12 +111,7 @@
 
 /* BERITA */
 .berita {
-  /* height: 85vmax; */
   padding: 120px 150px;
-}
-
-.berita .container {
-  /* background: chartreuse; */
 }
 
 .berita .judul-berita {
@@ -146,11 +137,6 @@
   justify-content: space-between;
 }
 
-/* .berita .card-berita {
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 3rem;
-} */
 
 .berita .thumbil {
   top: 0;
@@ -161,8 +147,6 @@
 .card-berita .card {
   width: 30vw;
   margin: 1rem 2rem;
-  /* flex-direction: column; */
-  /* justify-content: center; */
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
@@ -189,4 +173,73 @@
 .card-berita .card p {
   font-size: 1rem;
   font-family: "Montserrat-Regular";
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 480px) {
+  .jumbotron {
+    padding: 30vh 10px;
+    margin: auto;
+  }
+
+  .jumbotron h1 {
+    font-size: 1.5rem;
+  }
+
+  /* fitur */
+  .fitur-content {
+    padding: 10px 0 0 0;
+    height: auto;
+  }
+
+  .fitur-judul {
+    width: 100%;
+    margin-bottom: 3rem;
+    padding: 0 10px;
+  }
+
+  .fitur-judul h2 {
+    font-size: 1.5rem;
+  }
+
+  .fiturs {
+    flex-direction: column;
+  }
+
+  .fitur-content .card {
+    width: 100%;
+    margin: 0;
+    /* height: max-content; */
+  }
+
+  /* jumbotron 2 */
+  .jumbotron2 {
+    padding: 10vh 10px;
+    margin: auto;
+  }
+
+  .jumbotron2 h1 {
+    font-size: 1.5rem;
+  }
+
+  /* berita */
+  .berita {
+    padding: 0;
+  }
+
+  .berita .judul-berita {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+  }
+
+  .berita .card-berita {
+    flex-direction: column;
+  }
+
+  .card-berita .card {
+    width: 90vw;
+    margin: 10px auto;
+  }
 }

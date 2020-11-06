@@ -150,8 +150,6 @@
 .card-berita .card {
   width: 30vw;
   margin: 1rem 2rem;
-  /* flex-direction: column; */
-  /* justify-content: center; */
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
@@ -182,4 +180,133 @@
 .card-berita .card p {
   font-size: 1rem;
   font-family: "Montserrat-Regular";
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  /* jumbotron */
+  .text-jumbotron {
+    padding: 20vh 0 0 20vmin;
+  }
+
+  .text-jumbotron .container {
+    padding: 0 20% 0 0;
+  }
+
+  .step {
+    padding: 0;
+  }
+
+  .step .container .by-step .text .span1 {
+    transform: translateX(-3.3rem);
+    color: white;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-right: 50%;
+    background: var(--hijau-tua);
+    font-size: 18px;
+    border-radius: 50%;
+    border: 6px solid whitesmoke;
+  }
+
+  .step .container .by-step .text {
+    padding: 1rem 0 0 2rem;
+    margin: 0 0 0 3rem;
+    font-family: "Montserrat-Regular";
+    border-left: 3px solid var(--hijau-muda);
+  }
+
+  /* berita */
+  .berita {
+    padding: 0;
+  }
+
+  .berita .judul-berita {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .berita .judul-berita p {
+    font-family: "Montserrat-Regular";
+    font-size: 1rem;
+  }
+
+  .card-berita .card {
+    width: 30vw;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .card-berita .card p {
+    font-size: .8rem;
+    font-family: "Montserrat-Regular";
+  }
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  /* jumbotron */
+  .text-jumbotron {
+    padding: 0;
+  }
+
+  .text-jumbotron .container {
+    padding: 10vh 20px 0 20px;
+  }
+
+  .text-jumbotron .small-card {
+    margin: 0;
+    transform: scale(.75);
+  }
+
+  /* step */
+  .step {
+    padding: 0;
+  }
+
+  .step .container {
+    width: 100%;
+  }
+
+  .step .container .by-step {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .step .container .by-step .gambar {
+    padding: 10px;
+  }
+
+  .step .container .by-step .text {
+    padding: 20px;
+  }
+
+  .step .container .by-step .text .span1 {
+    /* display: none; */
+  }
+
+  /* berita */
+  .berita {
+    padding: 0;
+  }
+
+  .berita .judul-berita {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+  }
+
+  .berita .card-berita {
+    flex-direction: column;
+  }
+
+  .card-berita .card {
+    width: 90vw;
+    margin: 10px auto;
+  }
+
 }
