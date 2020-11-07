@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content_banner {
+    height: 100vh;
+    background-image: url("../images/home/headerHome.png");
+    background-size: cover;
+    padding: 40vh 30vmax 0 20vmin;
+    color: #fff;
+}
+
+.content_banner h1 {
+    font-family: "Georgia-Bold";
+    padding-bottom: 12px;
+}
+
+.content_banner .content .button {
+    padding: 12px 24px;
+    background: var(--hijau-tua);
+}
+
+.content_banner span a {
+    color: white;
+}
+
+.content_berita {
+    width: 70%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 350px;
+    border-right: 1px solid;
+}
+
+.content_berita img {
+    width: 40%;
+    margin-left: 25%;
+    padding: 20px;
+    font-family: "Lato-Regular";
+}
+
+.berita_samping .card {
+    width: 18vw;
+    height: 330px;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    font-size: 13px;
+
+}
+
+.berita_samping .card .gambar img {
+    width: 230px;
+    height: 170px;
+}
+
+.berita_samping .card .text {
+    padding: 1rem;
+}
+
+.berita_samping .card .text small {
+    color: #C4C4C4;
+    font-family: "Montserrat-Light";
+}
+
+.berita_samping .card .text h4 {
+    font-family: "Montserrat-Bold";
+}
+
+.berita_samping {
+    padding-bottom: 25px;
+}
+
+.berita_samping a {
+    margin-left: 955px;
+}
+
+.link {
+    color: blue;
+}
