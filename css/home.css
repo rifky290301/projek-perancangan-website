@@ -109,8 +109,10 @@
   color: #fff;
 }
 
+
 /* BERITA */
 .berita {
+  /* height: 85vmax; */
   padding: 120px 150px;
 }
 
@@ -137,6 +139,11 @@
   justify-content: space-between;
 }
 
+.berita .card-berita {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
 
 .berita .thumbil {
   top: 0;
@@ -150,6 +157,10 @@
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
+.card-berita .card img {
+  width: 100%;
+  height: 100%;
+}
 
 .card-berita .card .text {
   padding: 1rem;
