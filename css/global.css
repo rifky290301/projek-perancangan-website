@@ -84,13 +84,13 @@ nav .container {
 
 /* FOOTER */
 .footer1 {
-  height: 300px;
+  height: 250px;
   background: #292D3F;
 }
 
 .footer1 .content {
   width: 33.33vmax;
-  padding: 3rem 4rem;
+  padding: 2rem 4rem;
   color: #fff;
 }
 
@@ -98,27 +98,38 @@ nav .container {
   height: 150px;
   width: 150px;
   margin-bottom: 1rem;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+
+.footer1 .content:nth-child(1) img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
 }
 
 .footer1 .content:nth-child(1) i {
   font-family: "Lato-Regular";
 }
 
-.footer1 .content:nth-child(2) h2,
-.footer1 .content:nth-child(3) h2 {
+
+.contennnn h2 {
   font-family: "Montserrat-Bold";
 }
 
-.footer1 .content:nth-child(2) ul,
-.footer1 .content:nth-child(3) ul {
+.contennnn ul {
   font-family: "Lato-Regular";
   padding: 0.7rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2rem;
 }
 
+.contennnn .content:nth-child(2) ul a {
+  text-decoration: underline;
+  color: white;
+}
+
 .footer2 {
-  height: 60px;
+  height: 40px;
   background: #393939;
 }
 
@@ -130,15 +141,25 @@ nav .container {
 }
 
 @media screen and (max-width: 1024px) {
+
+  /* nav */
+  .fitur ul li,
+  .login ul li {
+    padding: 20px 8px;
+  }
+
+  .fitur ul li a {
+    padding: 15px;
+  }
+
   .footer1 .content {
     width: 33.33vmax;
     padding: 2rem 0 1rem 2rem;
     color: #fff;
   }
 
-  .footer1 .content:nth-child(2) ul,
-  .footer1 .content:nth-child(3) ul {
-    font-size: 1.5rem;
+  .contennnn ul {
+    font-size: 1.25rem;
     padding: 1rem;
     line-height: 2rem;
   }
@@ -164,11 +185,14 @@ nav .container {
     padding: 2rem 1rem;
   }
 
-  .footer1 .content:nth-child(2) ul,
-  .footer1 .content:nth-child(3) ul {
+  .contennnn ul {
     font-size: 1rem;
     padding: 1rem;
     line-height: 1rem;
+  }
+
+  .contennnn .content:nth-child(1) {
+    flex-direction: column;
   }
 }
 

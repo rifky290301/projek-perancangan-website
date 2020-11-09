@@ -144,7 +144,6 @@
 .berita .thumbil {
   top: 0;
   height: 50%;
-  background: chartreuse;
 }
 
 .card-berita .card {
@@ -287,6 +286,7 @@
 
   .step .container .by-step .text .span1 {
     /* display: none; */
+    transform: translateX(-2.7rem);
   }
 
   /* berita */

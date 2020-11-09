@@ -5,7 +5,7 @@
 
 .content_banner {
     height: 100vh;
-    background-image: url("../images/berita/farmer-standing-rice-field-with-tablet.jpg");
+    background-image: url("../images/berita/edit.png");
     background-size: cover;
     padding: 40vh 30vmax 0 20vmin;
     color: #fff;
@@ -25,6 +25,7 @@
 
 .content_banner .content .button {
     padding: 12px 24px;
+    font-family: "Lato-Regular";
     background: var(--hijau-tua);
 }
 
@@ -114,6 +115,11 @@
         font-size: small;
         line-height: 1rem;
         margin-right: 1rem;
+    }
+
+    .content_berita img {
+        width: 60vw;
+        margin-left: 0;
     }
 
     .card {

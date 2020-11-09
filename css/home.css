@@ -148,7 +148,6 @@
 .berita .thumbil {
   top: 0;
   height: 50%;
-  background: chartreuse;
 }
 
 .card-berita .card {
@@ -186,7 +185,39 @@
   font-family: "Montserrat-Regular";
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+
+  /* jumbotron */
+  .jumbotron {
+    padding: 30vh 30vmax 0 20vmin;
+  }
+
+  /* berita */
+  .berita {
+    padding: 0;
+  }
+
+  .berita .judul-berita {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .berita .judul-berita p {
+    font-family: "Montserrat-Regular";
+    font-size: 1rem;
+  }
+
+  .card-berita .card {
+    width: 30vw;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .card-berita .card p {
+    font-size: .8rem;
+    font-family: "Montserrat-Regular";
+  }
+}
 
 @media screen and (max-width: 480px) {
   .jumbotron {
