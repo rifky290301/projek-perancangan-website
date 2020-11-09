@@ -1,0 +1,217 @@
+.header{
+	background-color: #01996D;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 10px
+}
+.header h2,h3{
+	margin-left: 50px;
+	font-family: "Georgia-Bold";
+}
+
+.header p{
+  margin-left: 50px;
+}
+
+.content{
+	float: left;
+}
+
+.percakapan{
+	float: right;
+	padding-right: 300px;
+}
+
+.card{
+	width: 200px;
+	height: 60px;
+	padding-top: 10px;
+	margin-left: 50px;
+	margin-top: 20px;
+	background-color: #01996D;
+	border-radius: 10px;
+  	background-size: cover;
+}
+.card h2{
+	color: white;
+	text-align: right;
+	margin-right: 20px;
+	font-family: "Montserrat-Bold";
+}
+
+#biji{
+  background-image: url(../images/forum/biji-bijian.jpg);
+  position: relative;
+}
+
+#biji:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background-color: rgb(255, 153, 0,0.4);
+}
+
+#sayuran{
+  background-image: url(../images/forum/sayur.jpg);
+  position: relative;
+}
+
+#sayuran:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background-color: rgb(102, 0, 255,0.4);
+}
+#umbi{
+  background-image: url(../images/forum/umbi.jpg);
+  position: relative;
+}
+
+#umbi:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background-color: rgb(204, 51, 0,0.4);
+}
+#buah{
+  background-image: url(../images/forum/buah.jpg);
+  position: relative;
+}
+
+#buah:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background-color: rgb(0, 153, 0,0.4);
+}
+#herbal{
+  background-image: url(../images/forum/herbal.jpg);
+  position: relative;
+}
+#herbal:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background-color: rgb(102, 51, 0,0.4);
+}
+
+.small-card {
+  width: 200px;
+  height: 50px;
+  margin: 1rem 0 .75rem 0;
+  border-radius: 10px;
+  background: var(--hijau-muda);
+}
+
+
+.small-card .deep {
+  margin: auto 1rem;
+}
+
+.small-card img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.small-card h3 {
+  font-family: "Montserrat-Bold";
+  margin: 2px 0;
+}
+
+.small-card p {
+  font-family: "Montserrat-Light";
+  font-style: italic;
+  font-family: .5rem;
+  font-size: 8px;
+  margin: 0;
+}
+
+
+/*untuk penjawab*/
+.small-card2 {
+  width: 200px;
+  height: 50px;
+  margin: 1rem 0 .75rem 0;
+  border-radius: 10px;
+  background: #01996D;
+}
+
+
+.small-card2 .deep {
+  margin: auto 1rem;
+}
+
+.small-card2 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.small-card2 h3 {
+  font-family: "Montserrat-Bold";
+  margin: 2px 0;
+}
+
+.small-card2 p {
+  font-family: "Montserrat-Light";
+  font-style: italic;
+  font-family: .5rem;
+  font-size: 8px;
+  margin: 0;
+}
+.kata p{
+	height: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgb(102, 102, 153,0.6);
+	border-radius: 5px;
+ 	margin: auto;
+ 	font-family: "Lato-Regular";
+}
+
+.kata ul li {
+  padding: 5px 2px;
+  list-style: none;
+  display: inline-block;
+}
+#jawab{
+	margin-left: 50px;
+}
+
+.footer1{
+  float: right;
+  margin-top: 30px;
+}
+
+.footer2{
+  width: 1263px;
+}
+
