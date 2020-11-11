@@ -15,16 +15,11 @@ h3 {
   margin-left: 50px;
 }
 
-.content {
-  /* float: left; */
-}
-
 .kategori {
   flex-direction: column;
 }
 
 .percakapan {
-  /* float: right; */
   padding-right: 300px;
   padding: 0 0 0 15vw;
 }
@@ -53,6 +48,7 @@ h3 {
   position: relative;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
+  transition: .2s ease-in-out;
 }
 
 #biji:hover {
@@ -65,6 +61,7 @@ h3 {
   position: relative;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
+  transition: .2s ease-in-out;
 }
 
 #sayuran:hover {
@@ -77,6 +74,7 @@ h3 {
   position: relative;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
+  transition: .2s ease-in-out;
 }
 
 #umbi:hover {
@@ -94,6 +92,7 @@ h3 {
   position: relative;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
+  transition: .2s ease-in-out;
 }
 
 #herbal:hover {

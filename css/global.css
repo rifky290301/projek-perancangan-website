@@ -223,3 +223,21 @@ nav .container {
   font-family: Lato-Regular;
   src: url('../font/Lato/Lato-Regular.ttf');
 }
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #b5b5bd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--hijau-tua);
+}
