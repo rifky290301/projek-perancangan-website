@@ -147,6 +147,7 @@
 }
 
 .card-berita .card {
+  height: fit-content;
   width: 25vw;
   margin: 1rem 2rem;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
@@ -160,10 +161,9 @@
 .card-berita .card span {
   position: absolute;
   padding: .5rem;
-  /* border-radius: 5px; */
   border: 2px solid var(--hijau-tua);
   background-color: white;
-  transform: translate(280px, -25px);
+  transform: translate(18vw, -25px);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   transition: .3s ease-in-out;
 }
@@ -283,6 +283,10 @@
     font-family: "Montserrat-Regular";
   }
 
+  .card-berita .card span {
+    transform: translate(20vw, -25px);
+  }
+
 }
 
 
@@ -351,6 +355,6 @@
   }
 
   .card-berita .card span {
-    transform: translate(260px, -30px);
+    transform: translate(50vw, -30px);
   }
 }

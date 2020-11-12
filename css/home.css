@@ -79,7 +79,6 @@
 
 .fitur-content .card {
   width: 30vw;
-  height: 320px;
   margin: 1rem 2rem;
   display: flex;
   flex-direction: column;
@@ -164,6 +163,7 @@
 }
 
 .card-berita .card {
+  height: fit-content;
   width: 25vw;
   margin: 1rem 2rem;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
@@ -179,7 +179,7 @@
   padding: .5rem;
   border: 2px solid var(--hijau-tua);
   background-color: white;
-  transform: translate(280px, -25px);
+  transform: translate(18vw, -25px);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   transition: .3s ease-in-out;
 }
@@ -270,6 +270,10 @@
     font-size: .8rem;
     font-family: "Montserrat-Regular";
   }
+
+  .card-berita .card span {
+    transform: translate(20vw, -25px);
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -340,6 +344,6 @@
   }
 
   .card-berita .card span {
-    transform: translate(260px, -30px);
+    transform: translate(50vw, -30px);
   }
 }
