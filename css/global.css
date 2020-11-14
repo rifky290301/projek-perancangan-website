@@ -165,6 +165,26 @@ nav .container {
   }
 }
 
+@media screen and (max-width: 750px) {
+  .footer1 .contennnn {
+    flex-direction: column;
+    color: #fff;
+  }
+
+  .footer1 .contennnn h2 {
+    font-size: 1.25rem;
+  }
+
+  .footer1 .contennnn li {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .footer1 .contennnn .content {
+    padding: .5rem 2rem;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .footer1 {
     height: auto;
@@ -193,6 +213,10 @@ nav .container {
 
   .contennnn .content:nth-child(1) {
     flex-direction: column;
+  }
+
+  .footer1 .contennnn {
+    flex-direction: row;
   }
 }
 

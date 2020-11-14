@@ -40,7 +40,7 @@
 
 /* FITUR FITUR */
 .fitur-content {
-  height: 1000px;
+  height: fit-content;
   padding: 2rem 8rem;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@
   flex-direction: column;
   margin: 0 auto;
   justify-content: center;
-  padding: 2rem 300px;
+  padding: 2rem 20vmax;
 }
 
 .fitur-judul h2 {
@@ -245,6 +245,11 @@
     padding: 30vh 30vmax 0 20vmin;
   }
 
+  /* fitur */
+  .fitur-judul {
+    padding: 2rem 10vmin;
+  }
+
   /* berita */
   .berita {
     padding: 0;
@@ -275,6 +280,29 @@
     transform: translate(20vw, -25px);
   }
 }
+
+@media screen and (max-width: 750px) {
+  .jumbotron {
+    padding: 20vh 20vmax 0 20vmin;
+  }
+
+  .jumbotron h1 {
+    font-size: 2rem;
+  }
+
+  .fitur-judul {
+    padding: 2rem 5vmin;
+  }
+
+  .jumbotron2 {
+    padding: 10vmin 10px;
+  }
+
+  .jumbotron2 h1 {
+    font-size: 1.5rem;
+  }
+}
+
 
 @media screen and (max-width: 480px) {
   .jumbotron {

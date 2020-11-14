@@ -194,6 +194,18 @@ h3 {
 
 @media screen and (max-width: 1024px) {}
 
+@media screen and (max-width: 750px) {
+  .kategori {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .chatting {
+    flex-direction: column;
+    width: 100vw;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .kategori {
     flex-direction: row;
@@ -215,10 +227,10 @@ h3 {
     border-radius: 5px;
   }
 
-  .chatting {
+  /* .chatting {
     flex-direction: column;
     width: 100vw;
-  }
+  } */
 
   .content {
     width: 100%;

@@ -135,6 +135,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .content_banner {
+        padding: 18vh 15vmax 0 15vmin;
+    }
 
     .content_berita {
         margin-right: 1rem;
@@ -153,8 +156,16 @@
         width: 30vw;
         margin: 5rem 0rem;
     }
+}
 
+@media screen and (max-width: 750px) {
+    .content_banner {
+        padding: 20vh 15vmax 0 15vmin;
+    }
 
+    .content_banner h1 {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
