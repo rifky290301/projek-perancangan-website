@@ -51,7 +51,7 @@
 
 .berita_samping .card {
     width: 18vw;
-    height: 330px;
+    height: fit-content;
     margin: 5rem 2rem;
     display: flex;
     flex-direction: column;
