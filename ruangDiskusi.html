@@ -9,10 +9,11 @@
 	<link rel="stylesheet" href="css/forumDiskusi.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 	<link rel="icon" href="images/LOGO.png" type="image/png">
+
 </head>
 
 <body>
-	<nav>
+	<nav id="myNav">
 		<div class="container">
 			<div class="logo">
 				<a href="index.html">
@@ -87,9 +88,10 @@
 				<dev class="kata">
 					<p>Mau tanya teman-teman pemberian pupuk berapakali perbulannya ya....?</p>
 					<ul>
-						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li id="balas"><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
 						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
 					</ul>
+					<textarea name="" id="area" cols="30" rows="10"></textarea>
 				</dev>
 			</div>
 
@@ -296,7 +298,9 @@
 		<small>Copyright © 2020 Tani Jaya corporation. All rights reserved.</small>
 	</div>
 
-
+	<script src="/js/jquery.js"></script>
+	<script src="/js/global.js"></script>
+	<script src="/js/diskusi.js"></script>
 </body>
 
 </html>

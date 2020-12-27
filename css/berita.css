@@ -1,6 +1,7 @@
 .content_banner {
     height: 100vh;
-    background-image: url("../images/berita/edit.png");
+    background-image: url("../images/berita/jumbo2.jpg"), linear-gradient(to bottom, #38da45, #d13531);
+    /* background-image: url("../images/berita/jumbo2.jpg"), -webkit-gradient(to bottom, #38da45, #d13531); */
     padding: 40vh 30vmax 0 20vmin;
     color: #fff;
     /* paralax */
