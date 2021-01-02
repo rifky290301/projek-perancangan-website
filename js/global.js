@@ -24,3 +24,14 @@ $(window).scroll(function () {
   }
 });
 
+function thisClicked(number) {
+  var x = document.getElementsByClassName('popUp');
+  // var y = decument.getElementById('body');
+  x[number].style.display = 'block';
+  window.onclick = function (event) {
+    if (event.target == x[number]) {
+      x[number].style.display = "none";
+      // y.style.filter = "5px";
+    }
+  };
+};

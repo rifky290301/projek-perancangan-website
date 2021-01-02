@@ -90,6 +90,9 @@
 .step .container .by-step .text h2 {
   font-family: "Montserrat-Bold";
   margin-bottom: 1rem;
+  background-image: linear-gradient(#ebfffc, #fff);
+  border-top: 2px solid #00d1b2;
+  /* border-top-color: #b86bff; */
 }
 
 .step .container .by-step .text .span1 {
