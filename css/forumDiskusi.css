@@ -1,18 +1,47 @@
 .header {
-  background-color: #01996D;
-  color: white;
-  padding-top: 100px;
-  padding-bottom: 10px
+  /* background-color: #01996D; */
+  /* color: white; */
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  padding-top: 5rem;
+  /* flex-direction: column; */
 }
 
-.header h2,
-h3 {
-  margin-left: 50px;
-  font-family: "Georgia-Bold";
+.header .teks {
+  /* margin-left: 50px;
+  margin-top: 5rem; */
+  margin: 5rem 50px;
+  border-left: 1rem solid #01996D;
+  padding: 3rem .5rem;
+  /* margin: 0 2rem; */
+
+}
+
+.header h2 {
+  font-size: 3rem;
+  font-family: "Montserrat-Bold";
+}
+
+.header h3 {
+  font-size: 2rem;
+  font-family: "Montserrat-Bold";
 }
 
 .header p {
-  margin-left: 50px;
+  font-family: "Montserrat-Regular";
+}
+
+.header .gambar {
+  width: 70vw;
+  height: fit-content;
+}
+
+.header .gambar img {
+  width: 50vw;
+  height: 100%;
+  float: right;
 }
 
 .kategori {
@@ -98,6 +127,17 @@ h3 {
 #herbal:hover {
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
+}
+
+.percakapan h3 {
+  font-size: 2rem;
+  font-family: "Montserrat-Regular";
+  font-weight: 900;
+}
+
+.percakapan .judul p {
+  color: rgb(159, 159, 159);
+  font-family: "Montserrat-Light";
 }
 
 .small-card {

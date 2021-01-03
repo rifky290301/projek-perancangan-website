@@ -36,15 +36,25 @@
 			</div>
 		</div>
 	</nav>
-
+	<a onclick="thisClicked(0)" id="feedback"><i class="far fa-envelope"></i></a>
 	<div class="header">
-		<h2>FORUM DISKUSI</h2>
-		<h3>Pemberian Pupuk Pada Tanaman Buah Jeruk</h3>
-		<p>Topik Dikusi <a href="#"> Buah</a></p>
+		<div class="teks">
+			<!-- <h2>FORUM DISKUSI</h2>
+			<h3>Pemberian Pupuk Pada Tanaman Buah Jeruk</h3>
+			<p>Topik Dikusi <a href="#"> Buah</a></p> -->
+			<h2>ONLINE DISCUSSION FORUM</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deleniti, voluptas aspernatur voluptatum
+				cupiditate assumenda cum ipsam aperiam. Labore cum aliquid veritatis quo est laborum ullam corrupti placeat
+				maxime officiis.</p>
+			<!-- <p>Topik Dikusi <a href="#"> Buah</a></p> -->
+		</div>
+		<div class="gambar">
+			<img src="images/forum/undraw_texting_k35o.svg" alt="" srcset="">
+		</div>
 	</div>
-
+	<div class="garis"></div>
 	<div class="chatting flex">
-		<div class="content">
+		<div id="tombol" class="content">
 			<div class="kategori flex">
 				<a href="#">
 					<div class="card" id="biji">
@@ -75,6 +85,11 @@
 		</div>
 
 		<div class="percakapan">
+			<div class="judul">
+				<h3>Pemberian pupuk pada tanaman buah jeruk</h3>
+				<p><i> Kamis, 15 Okteber 2020</i></p>
+				<hr>
+			</div>
 			<div class="small-card flex">
 				<div class="deep flex">
 					<img src="./images/tutorial/rifky.jpg" alt="">
@@ -297,7 +312,41 @@
 	<div class="footer2 flex">
 		<small>Copyright © 2020 Tani Jaya corporation. All rights reserved.</small>
 	</div>
+	<!-- modalbox -->
+	<div id="popUp1" class="popUp">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Send Us A Message
+				</span>
 
+				<div class="flex" style="margin-bottom: 1rem;">
+					<div class="send">
+						<i class="pesawat fa fa-paper-plane"></i>
+					</div>
+				</div>
+
+				<div class="wrap-input100 validate-input">
+					<input class="input100" type="text" name="email" placeholder="E-mail">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input">
+					<textarea class="input100" name="message" placeholder="Your Message"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							<!-- <i class="fa fa-paper-plane"></i> -->
+							Send
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
 	<script src="/js/jquery.js"></script>
 	<script src="/js/global.js"></script>
 	<script src="/js/diskusi.js"></script>

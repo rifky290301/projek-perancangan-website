@@ -1,6 +1,6 @@
 .content_banner {
     height: 100vh;
-    background-image: url("../images/berita/jumbo2.jpg"), linear-gradient(to bottom, #38da45, #d13531);
+    background-image: url("../images/berita/beritaJumbotron.png");
     /* background-image: url("../images/berita/jumbo2.jpg"), -webkit-gradient(to bottom, #38da45, #d13531); */
     padding: 40vh 30vmax 0 20vmin;
     color: #fff;
@@ -12,13 +12,13 @@
 }
 
 .content_banner h1 {
-    font-family: "Georgia-Bold";
+    font-family: "Montserrat-Bold";
     font-size: 2.5rem;
     /* padding-bottom: 12px; */
 }
 
 .content_banner p {
-    font-family: "Lato-Regular";
+    font-family: "Montserrat-Regular";
     margin: 1.5rem 40% 1rem 0;
 }
 
@@ -122,13 +122,19 @@
 
 .berita_samping .card .read-more {
     justify-content: space-between;
-    background-color: #ccc;
+    background-color: var(--hijau-tua);
     padding: .75rem;
+    cursor: pointer;
 }
 
 .berita_samping .card .read-more h2 {
     font-size: 1rem;
     font-family: "Montserrat-Regular";
+    color: white;
+}
+
+.fa-arrow-alt-circle-right {
+    color: white;
 }
 
 .berita_samping .card .read-more {
