@@ -4,36 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Tutorial</title>
   <link rel="stylesheet" href="css/tutorial.css">
   <link rel=" stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="icon" href="images/LOGO.png" type="image/png">
 </head>
 
 <body>
-  <nav>
-    <div class="container">
-      <div class="logo">
-        <a href="index.html">
-          <img src="images/LOGO.png" alt="">
-        </a>
-      </div>
-      <div class="fitur">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="berita.html">Berita</a></li>
-          <li><a href="tutorial.html">Tutorial</a></li>
-          <li><a href="ruangDiskusi.html">Ruang Diskusi</a></li>
-        </ul>
-      </div>
-      <div class="login">
-        <ul>
-          <li class="buton"><a href="login.html">Log In</a></li>
-          <li class="button"><a href="register.html">Sign Up</a></li>
-        </ul>
-      </div>
-    </div>
+  <nav id="myNav">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">
+      <a href="index.html">
+        <img src="images/LOGO.png" alt="">
+      </a>
+    </label>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="berita.html">Berita</a></li>
+      <li><a class="active" href="tutorial.html">Tutorial</a></li>
+      <li><a href="ruangDiskusi.html">Ruang Diskusi</a></li>
+      <li class="buton"><a href="login.html">Log In</a></li>
+      <li class="button"><a href="register.html">Sign Up</a></li>
+    </ul>
   </nav>
-
+  <a onclick="thisClicked(0)" id="feedback"><i class="far fa-envelope"></i></a>
   <div class="text-jumbotron">
     <div class="container">
       <div class="judul">
@@ -61,10 +59,18 @@
         menanamnya sendiri di rumah.
         <br>
         <br>
+        Tahukah kamu bahwa tomat mengandung banyak manfaat bagi tubuh? Salah satunya kandungan vitamin K yang ada pada
+        tomat. Vitamin K sendiri bagus untuk tulang dan kalium sebagai nutrisi penting untuk fungsi jantung, kontraksi
+        otot, menjaga tekanan darah agar tetap sehat dan menjaga keseimbangan cairan dalam tubuh, juga terdapat di
+        tomat.
+        <br>
+        <br>
         Simak penjelasan lengkapnya
       </div>
     </div>
   </div>
+
+  <div class="garis"></div>
 
   <div class="step flex">
     <div class="container">
@@ -197,36 +203,173 @@
           </p>
         </div>
       </div>
+      <hr>
+    </div>
+  </div>
+
+  <div class="berita">
+    <div class="container">
+
+      <div class="judul-berita flex">
+        <h2>Tutorial lainnya</h2>
+        <p>Ada puluhan tutoraial yang dapata anda ikuti untuk memudahkan anda untuk memulai bertani maupun yang sudah
+          lama. Ada puluhan tutoraial yang dapata anda ikuti untuk memudahkan anda untuk memulai bertani maupun yang
+          sudah
+          lama. Ada puluhan tutoraial yang dapata anda ikuti untuk memudahkan anda untuk memulai bertani maupun yang
+          sudah
+          lama</p>
+      </div>
+
+      <div class="card-berita">
+        <div class="card">
+          <div class="thumbil">
+            <img src="./images/tutorial/bawang.jpg" alt="">
+          </div>
+          <a href="">
+            <span>
+              <h5><i class="far fa-eye"></i> 23</h5>
+            </span>
+          </a>
+          <div class="text">
+            <h1>Cara Pembuatan Pestisida Nabati Dari Bawang putih</h1>
+            <small>Kamis, 15 Okteber 2020</small>
+            <hr>
+            <p>Cara kerja pestisida nabati sangat spesifik, yaitu: (1) merusak perkembangan telur, larva dan pupa. (2)
+              menghambat . . .</p>
+          </div>
+          <div class="read-more flex">
+            <a href="#">
+              <h2>Read more ...</h2>
+            </a>
+            <a href="#">
+              <i class="far fa-arrow-alt-circle-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="thumbil">
+            <img src="./images/tutorial/tanah.jpg" alt="">
+          </div>
+          <a href="">
+            <span>
+              <h5><i class="far fa-eye"></i> 23</h5>
+            </span>
+          </a>
+          <div class="text">
+            <h1>Cara Menyuburkan Tanah Tanpa Menggunakan pertisida</h1>
+            <small>Rabu, 14 Okteber 2020</small>
+            <hr>
+            <p>Tanah dan lahan pertanian adalah hal paling vital dalam sektor pertanian. Tanaman pun tidak bisa hidup
+              tanpa adanya . . .</p>
+          </div>
+          <div class="read-more flex">
+            <a href="#">
+              <h2>Read more ...</h2>
+            </a>
+            <a href="#">
+              <i class="far fa-arrow-alt-circle-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="thumbil">
+            <img src="./images/tutorial/hidropokin.jpg" alt="">
+          </div>
+          <a href="">
+            <span>
+              <h5><i class="far fa-eye"></i> 23</h5>
+            </span>
+          </a>
+          <div class="text">
+            <h1>Memanfaatkan Lahan Sempit dengan Tanaman Hidroponik</h1>
+            <small>Selasa, 13 Okteber 2020</small>
+            <hr>
+            <p>Cara bercocok tanam hidroponik adalah metode penanaman tanaman tanpa menggunakan media tumbuh dari tanah.
+              . . .</p>
+          </div>
+          <div class="read-more flex">
+            <a href="#">
+              <h2>Read more ...</h2>
+            </a>
+            <a href="#">
+              <i class="far fa-arrow-alt-circle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="footer1 flex">
     <div class="content">
       <img src="images/LOGO.png" alt="">
-      <div class="">
+      <div class="tulisan">
         <i>Jalan. Kalimantan No. 37, Kampus Tegalboto, Jember, Jawa Timur, 68121, Indonesia</i>
       </div>
     </div>
-    <div class="content">
-      <h2>Hubungi kami</h2>
-      <ul>
-        <li>tanijaya@gmail.com</li>
-        <li>08212345xxx</li>
-      </ul>
-    </div>
-    <div class="content">
-      <h2>Tautan</h2>
-      <ul>
-        <li><a href="#">Panduan registrasi</a></li>
-        <li><a href="#">Syarat dan ketentuan</a></li>
-        <li><a href="#">Kebijakan kami</a></li>
-      </ul>
+    <div class="contennnn flex">
+      <div class="content ">
+        <h2>Hubungi kami</h2>
+        <ul>
+          <li>tanijaya@gmail.com</li>
+          <li>08212345xxx</li>
+          <li>08212345xxx</li>
+        </ul>
+      </div>
+      <div class="content">
+        <h2>Tautan</h2>
+        <ul>
+          <li><a href="#">Panduan registrasi</a></li>
+          <li><a href="#">Syarat dan ketentuan</a></li>
+          <li><a href="#">Kebijakan kami</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 
   <div class="footer2 flex">
     <small>Copyright © 2020 Tani Jaya corporation. All rights reserved.</small>
   </div>
+  <!-- modalbox -->
+  <div id="popUp1" class="popUp">
+    <div class="wrap-contact100">
+      <form class="contact100-form validate-form">
+        <span class="contact100-form-title">
+          Send Us A Message
+        </span>
+
+        <div class="flex" style="margin-bottom: 1rem;">
+          <div class="send">
+            <i class="pesawat fa fa-paper-plane"></i>
+          </div>
+        </div>
+
+        <div class="wrap-input100 validate-input">
+          <input class="input100" type="text" name="email" placeholder="E-mail">
+          <span class="focus-input100"></span>
+        </div>
+
+        <div class="wrap-input100 validate-input">
+          <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+          <span class="focus-input100"></span>
+        </div>
+
+        <div class="container-contact100-form-btn">
+          <button class="contact100-form-btn">
+            <span>
+              <!-- <i class="fa fa-paper-plane"></i> -->
+              Send
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/tutorial.js"></script>
 </body>
 
 </html>

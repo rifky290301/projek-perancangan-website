@@ -1,23 +1,30 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 .content_banner {
     height: 100vh;
-    background-image: url("../images/home/headerHome.png");
-    background-size: cover;
+    background-image: url("../images/berita/beritaJumbotron.png");
+    /* background-image: url("../images/berita/jumbo2.jpg"), -webkit-gradient(to bottom, #38da45, #d13531); */
     padding: 40vh 30vmax 0 20vmin;
     color: #fff;
+    /* paralax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content_banner h1 {
-    font-family: "Georgia-Bold";
-    padding-bottom: 12px;
+    font-family: "Montserrat-Bold";
+    font-size: 2.5rem;
+    /* padding-bottom: 12px; */
+}
+
+.content_banner p {
+    font-family: "Montserrat-Regular";
+    margin: 1.5rem 40% 1rem 0;
 }
 
 .content_banner .content .button {
     padding: 12px 24px;
+    font-family: "Lato-Regular";
     background: var(--hijau-tua);
 }
 
@@ -28,11 +35,12 @@
 .content_berita {
     width: 70%;
     float: left;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 40px;
-    margin-bottom: 350px;
+    padding: 3rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
     border-right: 1px solid;
+    font-family: "Montserrat";
+    line-height: 1.5rem;
 }
 
 .content_berita img {
@@ -44,21 +52,42 @@
 
 .berita_samping .card {
     width: 18vw;
-    height: 330px;
-    margin-top: 10px;
-    margin-left: 20%;
-    margin-bottom: 20px;
+    height: fit-content;
+    margin: 5rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     font-size: 13px;
-
 }
 
 .berita_samping .card .gambar img {
-    width: 230px;
-    height: 170px;
+    width: 100%;
+    height: 100%;
+}
+
+.berita_samping .card span {
+    position: absolute;
+    padding: .5rem;
+    border: 2px solid var(--hijau-tua);
+    background-color: white;
+    transform: translate(13vw, -25px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: .3s ease-in-out;
+}
+
+.berita_samping .card h5 {
+    font-size: 1rem;
+    color: var(--hijau-tua);
+    font-family: "Montserrat-Bold";
+}
+
+.berita_samping .card span:hover {
+    background-color: var(--hijau-tua);
+}
+
+.berita_samping .card span:hover h5 {
+    color: white;
 }
 
 .berita_samping .card .text {
@@ -74,14 +103,147 @@
     font-family: "Montserrat-Bold";
 }
 
+.berita_samping .card p {
+    font-family: "Montserrat-Regular";
+    font-size: 12px;
+}
+
 .berita_samping {
     padding-bottom: 25px;
 }
 
-.berita_samping a {
-    margin-left: 955px;
+.cari-berita a {
+    margin-left: 75vw;
 }
 
-.link {
+.cari-berita .link {
     color: blue;
+}
+
+.berita_samping .card .read-more {
+    justify-content: space-between;
+    background-color: var(--hijau-tua);
+    padding: .75rem;
+    cursor: pointer;
+}
+
+.berita_samping .card .read-more h2 {
+    font-size: 1rem;
+    font-family: "Montserrat-Regular";
+    color: white;
+}
+
+.fa-arrow-alt-circle-right {
+    color: white;
+}
+
+.berita_samping .card .read-more {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .content_banner {
+        padding: 18vh 15vmax 0 15vmin;
+    }
+
+    .content_berita {
+        margin-right: 1rem;
+        width: 65%;
+    }
+
+    .berita_samping .card span {
+        transform: translate(20vw, -25px);
+    }
+
+    .berita_samping .card .read-more {
+        padding: .5rem;
+    }
+
+    .berita_samping .card {
+        width: 30vw;
+        margin: 5rem 0rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .content_banner {
+        padding: 20vh 15vmax 0 15vmin;
+    }
+
+    .content_banner h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content_banner {
+        padding: 30vh 10px;
+        margin: auto;
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .berita_samping .card {
+        width: 30vw;
+        height: 210px;
+        margin: 5rem 2rem;
+    }
+
+    .berita_samping .card .text small {
+        font-size: 8px;
+    }
+
+    .berita_samping .card h4 {
+        font-size: 10px;
+    }
+
+    .berita_samping .card .text p {
+        font-size: 10px;
+    }
+
+    .berita_samping .card .text {
+        padding: 2px;
+    }
+
+    .content_berita {
+        font-size: small;
+        line-height: 1rem;
+        margin-right: 1rem;
+        width: 60%;
+    }
+
+    .content_berita img {
+        width: 60vw;
+        margin-left: 0;
+    }
+
+    .card {
+        margin-right: 1rem;
+    }
+
+    .content_berita {
+        padding: 0.3rem;
+    }
+
+    .link {
+        font-size: 12px;
+    }
+
+    .berita_samping .card span {
+        transform: translate(100px, -25px);
+    }
+
+    .berita_samping .card .read-more {
+        padding: .3rem;
+    }
+
+    .berita_samping .card .read-more h2 {
+        font-size: 12px;
+    }
+
+    .berita_samping .card h5 {
+        font-size: .5rem;
+    }
 }

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forum Diskusi</title>
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/forumDiskusi.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link rel="icon" href="images/LOGO.png" type="image/png">
+
+</head>
+
+<body>
+	<nav id="myNav">
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo">
+			<a href="index.html">
+				<img src="images/LOGO.png" alt="">
+			</a>
+		</label>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="berita.html">Berita</a></li>
+			<li><a href="tutorial.html">Tutorial</a></li>
+			<li><a class="active" href="ruangDiskusi.html">Ruang Diskusi</a></li>
+			<li class="buton"><a href="login.html">Log In</a></li>
+			<li class="button"><a href="register.html">Sign Up</a></li>
+		</ul>
+	</nav>
+	<a onclick="thisClicked(0)" id="feedback"><i class="far fa-envelope"></i></a>
+	<div class="header">
+		<div class="teks">
+			<h2>ONLINE DISCUSSION FORUM</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deleniti, voluptas aspernatur voluptatum
+				cupiditate assumenda cum ipsam aperiam. Labore cum aliquid veritatis quo est laborum ullam corrupti placeat
+				maxime officiis.</p>
+		</div>
+		<div class="gambar">
+			<img src="images/forum/undraw_texting_k35o.svg" alt="" srcset="">
+		</div>
+	</div>
+	<div class="garis"></div>
+	<div class="chatting flex">
+		<div id="tombol" class="content">
+			<div class="kategori flex">
+				<a href="#">
+					<div class="card" id="biji">
+						<h2>Biji-Bijian</h2>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card" id="sayuran">
+						<h2>Sayuran</h2>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card" id="umbi">
+						<h2>Umbi</h2>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card" id="buah">
+						<h2>Buah</h2>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card" id="herbal">
+						<h2>Herbal</h2>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div class="percakapan">
+			<div class="judul">
+				<h3>Pemberian pupuk pada tanaman buah jeruk</h3>
+				<p><i> Kamis, 15 Okteber 2020</i></p>
+				<hr>
+			</div>
+			<div class="small-card flex">
+				<div class="deep flex">
+					<img src="./images/tutorial/rifky.jpg" alt="">
+					<div>
+						<h5>Sukirman</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan">
+				<dev class="kata">
+					<p>Mau tanya teman-teman pemberian pupuk berapakali perbulannya ya....?</p>
+					<ul>
+						<li id="balas"><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+					<textarea name="" id="area" cols="30" rows="10"></textarea>
+				</dev>
+			</div>
+
+			<div class="small-card2 flex" id="jawab">
+				<div class="deep flex">
+					<img src="./images/forum/WhatsApp Image 2020-11-09 at 15.04.03.jpeg" alt="">
+					<div>
+						<h5>Sukijan</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan" id="jawab">
+				<div class="kata">
+					<p>Untuk pemberian pupuk itu 2 sampai 3 kali perbulannya</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="small-card2 flex" id="jawab">
+				<div class="deep flex">
+					<img src="./images/forum/WhatsApp Image 2020-11-09 at 15.04.03.jpeg" alt="">
+					<div>
+						<h5>Sukijan</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan" id="jawab">
+				<dev class="kata">
+					<p>dan ada juga jenis beberapa pupuk yang ada yaitu NPK, SP36 dan ZA</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+
+			<div class="small-card flex">
+				<div class="deep flex">
+					<img src="./images/tutorial/rifky.jpg" alt="">
+					<div>
+						<h5>Sukirman</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan">
+				<dev class="kata">
+					<p>Wah.... trimakasih pak atas semua sarannya dan ilmunya</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+
+			<div class="small-card2 flex" id="jawab">
+				<div class="deep flex">
+					<img src="./images/forum/WhatsApp Image 2020-11-09 at 15.04.03.jpeg" alt="">
+					<div>
+						<h5>Sukijan</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan" id="jawab">
+				<dev class="kata">
+					<p>Iya sama2 dek, saya juga senang bisa membatu petani lainnya</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+			<div class="small-card flex">
+				<div class="deep flex">
+					<img src="./images/tutorial/rifky.jpg" alt="">
+					<div>
+						<h5>Sukirman</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan">
+				<dev class="kata">
+					<p>Mau tanya teman-teman pemberian pupuk berapakali perbulannya ya....?</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+
+			<div class="small-card2 flex" id="jawab">
+				<div class="deep flex">
+					<img src="./images/forum/WhatsApp Image 2020-11-09 at 15.04.03.jpeg" alt="">
+					<div>
+						<h5>Sukijan</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan" id="jawab">
+				<div class="kata">
+					<p>Untuk pemberian pupuk itu 2 sampai 3 kali perbulannya</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="small-card2 flex" id="jawab">
+				<div class="deep flex">
+					<img src="./images/forum/WhatsApp Image 2020-11-09 at 15.04.03.jpeg" alt="">
+					<div>
+						<h5>Sukijan</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan" id="jawab">
+				<dev class="kata">
+					<p>dan ada juga jenis beberapa pupuk yang ada yaitu NPK, SP36 dan ZA</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+
+			<div class="small-card flex">
+				<div class="deep flex">
+					<img src="./images/tutorial/rifky.jpg" alt="">
+					<div>
+						<h5>Sukirman</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan">
+				<dev class="kata">
+					<p>Wah.... trimakasih pak atas semua sarannya dan ilmunya</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+
+			<div class="small-card2 flex" id="jawab">
+				<div class="deep flex">
+					<img src="./images/forum/WhatsApp Image 2020-11-09 at 15.04.03.jpeg" alt="">
+					<div>
+						<h5>Sukijan</h5>
+						<p>04 Mar 2019, 16:10 WIB</p>
+					</div>
+				</div>
+			</div>
+			<div class="pesan" id="jawab">
+				<dev class="kata">
+					<p>Iya sama2 dek, saya juga senang bisa membatu petani lainnya</p>
+					<ul>
+						<li><a href=""><i class="fa fa-reply" aria-hidden="true"></i>Balas</a></li>
+						<li><a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>Suka</a></li>
+					</ul>
+				</dev>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer1 flex">
+		<div class="content">
+			<img src="images/LOGO.png" alt="">
+			<div class="tulisan">
+				<i>Jalan. Kalimantan No. 37, Kampus Tegalboto, Jember, Jawa Timur, 68121, Indonesia</i>
+			</div>
+		</div>
+		<div class="contennnn flex">
+			<div class="content ">
+				<h2>Hubungi kami</h2>
+				<ul>
+					<li>tanijaya@gmail.com</li>
+					<li>08212345xxx</li>
+					<li>08212345xxx</li>
+				</ul>
+			</div>
+			<div class="content">
+				<h2>Tautan</h2>
+				<ul>
+					<li><a href="#">Panduan registrasi</a></li>
+					<li><a href="#">Syarat dan ketentuan</a></li>
+					<li><a href="#">Kebijakan kami</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer2 flex">
+		<small>Copyright © 2020 Tani Jaya corporation. All rights reserved.</small>
+	</div>
+	<!-- modalbox -->
+	<div id="popUp1" class="popUp">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Send Us A Message
+				</span>
+
+				<div class="flex" style="margin-bottom: 1rem;">
+					<div class="send">
+						<i class="pesawat fa fa-paper-plane"></i>
+					</div>
+				</div>
+
+				<div class="wrap-input100 validate-input">
+					<input class="input100" type="text" name="email" placeholder="E-mail">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input">
+					<textarea class="input100" name="message" placeholder="Your Message"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							<!-- <i class="fa fa-paper-plane"></i> -->
+							Send
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/global.js"></script>
+	<script src="js/diskusi.js"></script>
+</body>
+
+</html>

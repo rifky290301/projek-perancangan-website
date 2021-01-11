@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/login.css">
+    <link rel="icon" href="images/LOGO.png" type="image/png">
 </head>
+
 <body>
     <div class="card">
         <form method="POST" class="form">
@@ -20,12 +23,14 @@
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password" placeholder="Masukkan Password">
                 <br>
-                <input type="submit" id="login" value="Login">
+                <input type="submit" id="login" onclick="notif()" value="Login">
                 <br>
                 <a href="register.html" class="register">Register</a>
-                <a href="#" class="forgot">Forgot Password</a>   
-            </div> 
+                <a href="#" class="forgot">Forgot Password</a>
+            </div>
         </form>
     </div>
+    <script src="/js/login.js"></script>
 </body>
+
 </html>

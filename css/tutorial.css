@@ -2,7 +2,14 @@
 
 .text-jumbotron {
   padding: 20vh 20vmin 0 20vmin;
+  height: fit-content;
+  /* background: linear-gradient(to bottom, rgba(103, 178, 111, 1), rgba(76, 162, 205, .5), white); */
+  margin-bottom: 1rem;
 }
+
+/* .back {
+  background: linear-gradient(to left, #67b26f, #4ca2cd);
+} */
 
 .text-jumbotron .container {
   padding: 0 30% 0 0;
@@ -51,21 +58,28 @@
 
 /* STEP BY STEP */
 .step {
-  padding: 20vh 20vmin;
+  padding: 0vh 20vmin 0 20vmin;
 }
-
-/* .step .container {
-  background-color: burlywood;
-} */
 
 .step .container .by-step {
   display: flex;
 }
 
+.step .container .by-step:nth-child(6) {
+  margin-bottom: 2rem;
+}
+
 .step .container .by-step .gambar {
   padding: 1rem 5rem;
   width: 50%;
-  /* height: ; */
+}
+
+.step .container .by-step .gambar img {
+  transition: all 1s ease;
+}
+
+.step .container .by-step .gambar img:hover {
+  transform: scale(1.2);
 }
 
 .step .container .by-step .text {
@@ -77,20 +91,22 @@
 .step .container .by-step .text h2 {
   font-family: "Montserrat-Bold";
   margin-bottom: 1rem;
+  /* background-image: linear-gradient(#ebfffc, #fff);
+  border-top: 2px solid #00d1b2; */
+  /* border-top-color: #b86bff; */
 }
 
 .step .container .by-step .text .span1 {
-  transform: translateX(-6.1rem);
+  transform: translateX(-6.3rem);
   color: white;
-  height: 2rem;
-  width: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
   border-right: 50%;
   background: var(--hijau-tua);
   font-size: 18px;
   border-radius: 50%;
-  box-shadow: 2px 0 10px black;
+  border: 6px solid whitesmoke;
 }
-
 
 .step .container .by-step .text .span1 p {
   margin: auto;
@@ -98,4 +114,248 @@
 
 .step .container .by-step .gambar img {
   width: 400px;
+}
+
+/* BERITA */
+.berita {
+  /* height: 85vmax; */
+  padding: 120px 150px;
+}
+
+.berita .judul-berita {
+  width: 920px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.berita .judul-berita h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.berita .judul-berita p {
+  font-family: "Montserrat-Regular";
+  font-size: 1rem;
+}
+
+.berita .card-berita {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.berita .thumbil {
+  top: 0;
+  height: 50%;
+}
+
+.card-berita .card {
+  height: fit-content;
+  width: 320px;
+  margin: 1rem 2rem;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  transition: .3s;
+}
+
+.card-berita .card:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7)
+}
+
+.card-berita .card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-berita .card span {
+  position: absolute;
+  padding: .5rem;
+  border: 2px solid var(--hijau-tua);
+  background-color: white;
+  transform: translate(15vw, -25px);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: .3s ease-in-out;
+}
+
+.card-berita .card h5 {
+  font-size: 1rem;
+  color: var(--hijau-tua);
+  font-family: "Montserrat-Bold";
+}
+
+.card-berita .card span:hover {
+  background-color: var(--hijau-tua);
+}
+
+.card-berita .card span:hover h5 {
+  color: white;
+}
+
+.card-berita .card .text {
+  padding: 1rem;
+}
+
+.card-berita .card .text hr {
+  margin-bottom: 1rem;
+}
+
+.card-berita .card h1 {
+  margin-bottom: 0.3rem;
+  font-size: 18px;
+  font-family: "Montserrat-Bold";
+}
+
+.card-berita .card small {
+  color: #C4C4C4;
+  font-family: "Montserrat-Light";
+}
+
+.card-berita .card p {
+  font-size: 1rem;
+  font-family: "Montserrat-Regular";
+}
+
+.card-berita .card .read-more {
+  justify-content: space-between;
+  background-color: var(--hijau-tua);
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.card-berita .card .read-more h2 {
+  font-size: 1rem;
+  font-family: "Montserrat-Regular";
+  color: white;
+}
+
+.fa-arrow-alt-circle-right {
+  font-size: 1.5rem;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+  /* jumbotron */
+  .text-jumbotron {
+    padding: 20vh 0 0 20vmin;
+  }
+
+  .text-jumbotron .container {
+    padding: 0 20% 0 0;
+  }
+
+  .step {
+    padding: 0;
+  }
+
+  .step .container .by-step .text .span1 {
+    transform: translateX(-3.3rem);
+    color: white;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-right: 50%;
+    background: var(--hijau-tua);
+    font-size: 18px;
+    border-radius: 50%;
+    border: 6px solid whitesmoke;
+  }
+
+  .step .container .by-step .text {
+    padding: 1rem 0 0 2rem;
+    margin: 0 0 0 3rem;
+    font-family: "Montserrat-Regular";
+    border-left: 3px solid var(--hijau-muda);
+  }
+
+  /* berita */
+  .berita {
+    padding: 0;
+  }
+
+  .berita .judul-berita {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .berita .judul-berita p {
+    font-family: "Montserrat-Regular";
+    font-size: 1rem;
+  }
+
+  .card-berita .card p {
+    font-size: .8rem;
+    font-family: "Montserrat-Regular";
+  }
+
+  .card-berita .card span {
+    transform: translate(20vw, -25px);
+  }
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  /* jumbotron */
+  .text-jumbotron {
+    padding: 0;
+  }
+
+  .text-jumbotron .container {
+    padding: 10vh 20px 0 20px;
+  }
+
+  .text-jumbotron .small-card {
+    margin: 0;
+    transform: scale(.75);
+  }
+
+  /* step */
+  .step {
+    padding: 0;
+  }
+
+  .step .container {
+    width: 100%;
+  }
+
+  .step .container .by-step {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .step .container .by-step .gambar {
+    padding: 10px;
+  }
+
+  .step .container .by-step .text {
+    padding: 20px;
+  }
+
+  .step .container .by-step .text .span1 {
+    /* display: none; */
+    transform: translateX(-2.7rem);
+  }
+
+  /* berita */
+  .berita {
+    padding: 0;
+  }
+
+  .berita .judul-berita {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+  }
+
+  .card-berita .card span {
+    transform: translate(50vw, -30px);
+  }
 }
