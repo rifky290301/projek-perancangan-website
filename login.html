@@ -11,17 +11,19 @@
 
 <body>
     <div class="card">
-        <form method="POST" class="form">
+        <form method="POST" id="form">
             <div class="content-atas">
                 <img class="logo" src="images/register&login/logo.png" alt="logoTaniJaya">
                 <p>Welcome <br> Login to countinue</p>
             </div>
             <div class="content-bawah">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Masukkan Email">
+                <input type="email" name="email" id="email" placeholder="Masukkan Email" required
+                    onkeydown="validasiemail()">
+                <span id="text"></span>
                 <br>
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="Masukkan Password">
+                <input type="password" name="password" id="password" placeholder="Masukkan Password" required>
                 <br>
                 <input type="submit" id="login" onclick="notif()" value="Login">
                 <br>

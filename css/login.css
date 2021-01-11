@@ -5,7 +5,7 @@ body {
     font-family: sans-serif;
 }
 
-.form {
+#form {
     width: 280px;
     height: 450px;
     background: white;
