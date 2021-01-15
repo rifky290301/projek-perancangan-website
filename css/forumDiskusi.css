@@ -232,6 +232,25 @@
   width: 100%;
 }
 
+/* .header .teks h2 {
+  animation: type 3s steps(23);
+  overflow: hidden;
+  white-space: nowrap;
+  width: 23ch;
+
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 23ch;
+  }
+}
+ */
+
 @media screen and (max-width: 1024px) {}
 
 @media screen and (max-width: 750px) {

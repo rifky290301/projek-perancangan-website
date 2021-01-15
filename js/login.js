@@ -31,3 +31,5 @@ function validasiemail() {
         text.style.fontSize ="14px";
     }
 }
+
+
